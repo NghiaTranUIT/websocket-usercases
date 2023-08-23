@@ -1,0 +1,17 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start_ws": "node main.js ws",
+    "start_wss": "node main.js wss",
+    "start_wss_include_server": "node main.js wss server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "https-proxy-agent": "^5.0.1",
+    "ws": "^8.11.0"
+  }
+}
